@@ -25,7 +25,7 @@ class Mpass_Log {
         if (!empty($scope))  {
             print "[" . date("Y-m-d H:i:s") . "]-[PID:" . $pid . "]-[". $priority ."][" . $scope . "]" . $str . "\n";
         } else {
-            print "[" . date("Y-m-d H:i:s") . "]-[PID:" . $pid . "]-[". $proirity ."]" . $str . "\n";
+            print "[" . date("Y-m-d H:i:s") . "]-[PID:" . $pid . "]-[". $priority ."]" . $str . "\n";
         }
     }
 
