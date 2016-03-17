@@ -50,7 +50,7 @@ class Mpass_Server {
 
 		/** assure run in cli mode */
 		if (substr(php_sapi_name(), 0, 3) !== 'cli') {
-			die("This Programe can only be run in CLI mode");
+			die("This Program can only be run in CLI mode");
 		}
 
         if ($host) {
